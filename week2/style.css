@@ -1,9 +1,14 @@
 html,
 #PageHeader{
     background-color:#EEFFEE;
-    align:center;
+    text-align:center;
 }
 
 #BlogPostTitle{
     color: #FF0000;
+    text-align:center;
+}
+
+#SiteNavigation{
+    text-align:center;
 }
