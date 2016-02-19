@@ -1,35 +1,51 @@
 html,
+
+#body{
+    background-color:black;
+}
+
 #PageHeader{
-    background-color:#EEFFEE;
     text-align:center;
+    color: white;
 }
 
 #BlogPostTitle{
-    color: #FF0000;
+    color: white;
     text-align:center;
     font-family: "Avantgarde", sans-serif;
+    font-size: 250%;
 }
 
 #SiteNavigation{
     margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
+    width: 96%;
+    border: 3px solid white;
+    color: white;
+    text-align:center;
     padding: 10px;
     font-family: "Avantgarde", sans-serif;
+    font-size: 140%;
+}
+
+#ul{
+    display: inline;
 }
 
 #PageContent{
-    margin: auto;
-    width: 20%;
-    border: 3px solid red;
+    margin:auto;
+    width: 40%;
+    border: 3px solid white;
+    color: white;
     padding: 10px;
     font-family: "Avantgarde", sans-serif;
+    font-size: 140%;
 }
 
 #TitleDate{
-    text-align:left;
+    text-align:right;
+    color: white;
 }
 
 #BlogPostContent{
-    text-align:right;
+    color: red;
 }
