@@ -25,3 +25,11 @@ html,
     padding: 10px;
     font-family: "Avantgarde", sans-serif;
 }
+
+#TitleDate{
+    text-align:left;
+}
+
+#BlogPostContent{
+    text-align:right;
+}
