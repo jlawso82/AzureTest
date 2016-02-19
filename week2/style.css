@@ -66,6 +66,8 @@ html,
     float:right;
 }
 
-#footer{
-    float: left;
+#PageFooter{
+    position: absolute;
+    bottom: 10px;
+
 }
