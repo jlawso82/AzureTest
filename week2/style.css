@@ -19,6 +19,9 @@ html,
 }
 
 #PageContent{
-    font-family: "Avantgarde", sans-serif;
+    margin: auto;
+    width: 60%;
     border: 3px solid #FFEEEE;
+    padding: 10px;
+    font-family: "Avantgarde", sans-serif;
 }
