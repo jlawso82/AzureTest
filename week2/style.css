@@ -31,7 +31,8 @@ html,
     display: inline;
 }
 
-#PageContent{
+#PageContentLeft{
+    float: left;
     margin:auto;
     width: 40%;
     border: 3px solid white;
@@ -48,4 +49,23 @@ html,
 
 #BlogPostContent{
     color: red;
+}
+
+#PageContentRight{
+    float: right;
+    margin:auto;
+    width: 40%;
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    font-family: "Avantgarde", sans-serif;
+    font-size: 140%;
+}
+
+#SecondBlogPost{
+    float:right;
+}
+
+#footer{
+    float: left;
 }
