@@ -17,3 +17,8 @@ html,
     padding: 10px;
     font-family: "Avantgarde", sans-serif;
 }
+
+#PageContent{
+    font-family: "Avantgarde", sans-serif;
+    border: 3px solid #FFEEEE;
+}
