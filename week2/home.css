@@ -1,0 +1,154 @@
+html,
+
+body {
+    background-color: rgb(193,39,45);
+    background: url("background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#container{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.left-column
+{
+    float:left;
+    width:31%;
+    font-size: 18px;
+    font-family: "Avantgarde", sans-serif;
+    text-align: justify;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.center-column
+ {
+     margin:auto;
+     width:31%;
+    font-size: 18px;
+    font-family: "Avantgarde", sans-serif;
+    text-align: justify;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.right-column
+{
+    float:right;
+    width:31%;
+    font-size: 18px;
+    font-family: "Avantgarde", sans-serif;
+    text-align: justify;
+	background-color: white;
+	padding: 10px;
+}
+
+#logo{
+    max-width: 100%;
+    height: 90%;
+}
+
+#rightPicture{
+	max-width: 140%;
+	height: 180%;
+}	
+
+#Heading{
+    text-align: center;
+    font-family: "Avantgarde", sans-serif;
+    font-size: 24px;
+    color: rgb(193,39,45);;
+
+}
+
+#image{
+    text-align: center;
+}
+
+
+#LogoHeader
+{
+    float: left;
+    height: 90%;
+    width: 40%;
+	max-width: 200px;
+}
+
+#Header
+{	
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 80%;
+
+
+    background-color: black;
+
+    color: #C1272D;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+
+#HeaderBanner
+{
+    float: center;
+    height: 40%;
+    width: 93%;
+    text-align: center;
+
+    font-size: 52px;
+}
+
+#SiteNavigation
+{
+    display: flex;
+    align-items: center;
+
+    float: left;
+    height: 90%;
+    width: 66%;
+}
+
+.NavElement
+{
+    float: right;
+    height: 50%;
+    width: 53%;
+    text-align: right;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+#TextBox{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#PageFooter{
+    float: left;
+    top: 30%;
+	border: 5px;
+	background-color: white;
+}
