@@ -27,7 +27,7 @@ body {
     width:31%;
     font-size: 18px;
     font-family: "Avantgarde", sans-serif;
-    text-align: justify;
+    text-align: center;
 	background-color: white;
 	padding: 10px;
 
@@ -75,6 +75,7 @@ body {
 }
 
 #image{
+	max-height: 340px;
     text-align: center;
 }
 
@@ -128,7 +129,7 @@ body {
 {
     float: right;
     height: 50%;
-    width: 53%;
+    width: 33%;
     text-align: right;
     font-size: 28px;
     color: white;
@@ -152,3 +153,19 @@ body {
 	border: 5px;
 	background-color: white;
 }
+
+#Thumbnail a {
+			position:relative;
+			}
+
+#Thumbnail a img{
+			display:block;
+			position:absolute;
+			top:-999px;
+			left:0;
+			}
+			
+#Thumbnail a:hover img {
+			top:-100px;
+			left:80;
+			}
